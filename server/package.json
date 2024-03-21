@@ -4,8 +4,8 @@
   "description": "This project contains url shortner apis",
   "main": "server.js",
   "scripts": {
-    "start": "ts-node-dev server.ts",
-    "build": "tsc",
+    "build": "npx tsc",
+    "start": "npx tsc && node ./dist/server.js",
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
