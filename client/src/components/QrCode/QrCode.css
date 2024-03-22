@@ -56,10 +56,11 @@ button {
   }
   .qrcode__container {
     display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: white;
   }
   .input__group {
     margin-left: 3em;

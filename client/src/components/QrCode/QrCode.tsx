@@ -30,7 +30,7 @@ const QrCode: React.FC = () => {
       id="qrCode"
       value={url}
       size={200}
-      bgColor={"#ffffff"}
+      bgColor={"#f8f8f8"}
       level={"H"}
     />
   );
