@@ -5,8 +5,7 @@ import '../../App.css'
 import logo from '../../Assets/SVGs/vector7.svg'
 import arrowdown from '../../Assets/SVGs/expand_more_FILL0_wght400_GRAD0_opsz48.svg';
 import headerline from '../../Assets/SVGs/Vector 3.svg'
-import QRCode from "qrcode.react";
-import icon from '../../Assets/SVGs/edit.svg'
+
 
 
 interface IFormContainerProps {
