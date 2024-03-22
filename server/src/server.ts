@@ -25,7 +25,19 @@ app.use(
   })
 );
 
-app.use('/', express.static('dist'));
+app.all('/', (req, res) => {
+  res
+    .status(200)
+    .setHeader('Content-Type', 'application/json')
+    .json({
+      success: true,
+      status: 'success',
+      message: 'Welcome to Scissor URL Shortener Backend💃',
+      version: '1.0.0',
+      developer: 'https://github.com/koimasshiro/Scissor_URLShortener-Project',
+      health: '100% Server is Live',
+    });
+});
 app.use("/api/", shortUrl, limiter);
 
 app.listen(port, () => {
