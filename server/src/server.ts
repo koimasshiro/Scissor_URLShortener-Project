@@ -25,6 +25,7 @@ app.use(
   })
 );
 
+app.use('/', express.static('dist'))
 app.use("/api/", shortUrl, limiter);
 
 app.listen(port, () => {
