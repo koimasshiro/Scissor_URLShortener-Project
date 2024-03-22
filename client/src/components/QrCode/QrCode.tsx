@@ -47,7 +47,7 @@ const QrCode: React.FC = () => {
             onChange={qrCodeEncoder}
             placeholder="https://eseosa.com"
           />
-          <button type="submit" disabled={!url}>
+          <button className='qr-btn' type="submit" disabled={!url}>
             Download QR code
           </button>
         </form>

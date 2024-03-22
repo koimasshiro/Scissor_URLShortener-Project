@@ -38,9 +38,9 @@ input {
   margin-bottom: 2em;
   margin-top: 0.75em;
 }
-button {
+.qr-btn{
   border: unset;
-  background: hsl(231, 77%, 90%);
+  background: rgb(24, 24, 151);
   padding: 1em 0.75em;
   color: hsl(var(--font-color));
   cursor: pointer;
@@ -61,6 +61,15 @@ button {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
+  }
+  .qr-btn{
+    border: white;
+    background: rgb(24, 24, 151);
+    padding: 1em 0.75em;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
   }
   .input__group {
     margin-left: 3em;
